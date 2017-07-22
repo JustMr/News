@@ -12,7 +12,7 @@ public class MySQLDbHelper {
 		Connection conn = null;
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-			conn = (Connection) DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=dangjian;user=sa;password=171213");
+			conn = (Connection) DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=dangjian;user=sa;password=***");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
