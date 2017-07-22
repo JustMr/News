@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+.aright {display: none;}
+.mhleft {float: left;margin-left: 20px;}
+.mhright {float: left;}
+.continer {width: 1200px;margin: 0 auto;}
+.mhleft li {border: 1px solid #666;margin-bottom: 3px;cursor: pointer;}
+#fulltext,#fulltextedit {width: 800px;height: 440px;}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.zqjy.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addarticle</servlet-name>
+    <servlet-class>com.zqjy.addarticle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListArticle.do</servlet-name>
+    <servlet-class>com.zqjy.ListArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteArticle.do</servlet-name>
+    <servlet-class>com.zqjy.DeleteArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditArticle.do</servlet-name>
+    <servlet-class>com.zqjy.EditArticle</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>	
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addarticle</servlet-name>
+    <url-pattern>/addarticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListArticle.do</servlet-name>
+    <url-pattern>/article/ListArticle.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteArticle.do</servlet-name>
+    <url-pattern>/article/DeleteArticle.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditArticle.do</servlet-name>
+    <url-pattern>/article/EditArticle.do</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
